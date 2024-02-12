@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    width: 100%;
+    height: 42rem;
+
+    background:linear-gradient(45deg,rgba(11, 141, 228, 0.77),rgba(226, 87, 36, 0.562));
+    overflow: hidden;
+    position: relative;
+
+}
+
+.about-container{
+    width: 100%;
+    height: 42rem;
+//   background-color: aliceblue;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    // .photo-div{
+    //      width: 24rem;
+    //      height: 30rem;
+    //      background-color: rgb(15, 56, 56);
+    //      margin-top: -25px;
+    //     margin-left: 40px; 
+        
+    //     .pic{
+    //         width: 24rem;
+    //         height: 30rem;
+    //         // background-color: rgb(15, 56, 56);
+            
+    //         //margin-top: -25px;
+    //        //margin-left: -150px;  
+    //     }
+    // }
+    .photo-div {
+        width: 24rem;
+        height: 30rem;
+        // background-color: rgb(15, 56, 56);
+        margin-top: 0; /* Adjusted to remove the negative margin */
+        margin-left: 40px;
+        
+    
+        .pic {
+            width: 99.9%; /* Adjusted width to fill the parent */
+            height: 99%; /* Adjusted height to fill the parent */
+            /* Other styles as needed */
+        }
+    }
+    
+    .skills-div{
+        width: 35%;
+        height: 23rem;
+        
+        //  background-color: rgb(62, 95, 95);
+         margin-right: 170px;
+         margin-top: -20px;
+         .about-heading{
+                
+            font-size: 39px;
+            font-weight: 700;
+            // color: rgb(202, 94, 94);
+            text-align: center;
+            margin-top: 0px;
+            color: #FFFDF4;
+           // margin-bottom: 20px;
+
+
+         }
+         .skill-list{
+            
+             list-style: none;
+             margin-top: 10px;
+             padding: 0 0 15px 0;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             //justify-content: space-evenly;
+             width: 100%;
+            //  height: 80%;
+          //   background-color: #a00909;
+             
+             
+             .skill{
+                width: 95%;
+                height: 3rem;
+                margin-top: 8px;
+                display: flex;
+                background-color: transparent;
+                align-items: center;
+                justify-content: center;
+               
+                box-shadow: #685656;
+                font-size: 17px;
+                font-weight: 700;
+                color: rgb(220,220,228);
+                border-bottom: 1px solid green;
+                cursor: pointer;
+                box-shadow: 2px 2px 10px green;
+
+                &:hover {
+                    transform: scale(110%);
+                    transition: 400ms;
+                   
+                    color: firebrick;
+                }
+             }
+         }
+    }
+
+}
+@media screen and (max-width: 1060px) {
+    .about-container .skills-div{
+        width: 43%;
+        height: 23rem;
+        
+        //  background-color: rgb(62, 95, 95);
+         margin-right: 30px;
+         margin-top: -20px;
+    }
+}
+@media screen and (max-width: 890px) {
+    .about-container .photo-div {
+        width: 20rem;
+        height: 25rem;
+        // // background-color: rgb(15, 56, 56);
+        // margin-top: 0; /* Adjusted to remove the negative margin */
+        margin-left: 20px;
+        
+    }
+        .pic {
+            width: 99.9%; /* Adjusted width to fill the parent */
+            height: 99%; /* Adjusted height to fill the parent */
+            /* Other styles as needed */
+        }
+        .about-container .skills-div{
+            margin-top: 10px;
+        }
+      .about-container .skills-div .about-heading{
+            font-size: 30px;
+        }
+    
+
+}
+@media screen and (max-width: 750px) {
+     .about{
+        height: 49rem;
+     }
+ .about-container{
+    //background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 48rem;
+    position: relative;
+    
+    .photo-div{
+        width: 40%;
+        height: 19rem;
+       // background-color: rgb(15, 56, 56);
+        margin-top: 45px;
+       margin-left: -0px; 
+       .pic{
+        width: 100%;
+        height: 98%; 
+    }
+   }
+   .skills-div{
+
+    width: 70%;
+    height: 23rem;
+    //background-color: rgb(6, 8, 8);
+    margin-left: -0px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   }
+
+
+
+ }
+
+}
+
+@media screen and (max-width: 550px) {
+    
+  .about-container{
+    //background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+
+    .photo-div{
+        width: 15rem;
+        height: 17em;
+       // background-color: rgb(15, 56, 56);
+        margin-top: 30px;
+       margin-left: -0px; 
+       .pic{
+        width: 100%;
+        height: 98%; 
+    }
+   }
+   .skills-div{
+
+    width: 80%;
+    height: 22rem;
+//    background-color: rgb(6, 8, 8);
+    margin-left: 25px;
+    margin-bottom: 0px;
+ 
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    .about-heading{
+         font-size: 25px;
+         width: 100%;
+         @media screen and (max-width: 340px) {
+            font-size: 20px;
+            // background-color: #685656;
+            
+         }
+    }
+    .skill-list{
+          display: block !important;  
+        list-style: none;
+        margin-top: 10px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        //justify-content: space-evenly;
+        width: 100%;
+        height: 80%;
+     //   background-color: #a00909;
+
+     .skill{
+        width: 90%;
+        margin-left: 19px;
+        // margin-top: 10px;
+    }
+    }
+
+   }
+  }
+}
+
+@media screen and (max-width: 340px) {
+    .about-container{
+    .skill-div{
+        .about-heading{
+            font-size: 20px;
+            background-color: #685656;
+        }
+    }
+}
+}
