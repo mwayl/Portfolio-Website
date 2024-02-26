@@ -52,7 +52,7 @@ const Portfolio = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </Helmet>
         <div className='portfolio-container'>
-        <h1 className='project-heading'>PORTFOLIO</h1>
+        <h1 className='project-heading'>PROJECT</h1>
         <div className='project'>
         <div className='project-link' data-aos="fade-right">
 

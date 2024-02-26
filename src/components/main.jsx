@@ -68,7 +68,7 @@ function Main() {
             </a>
         </div>
         <div className="button-class">
-        <button type="button"><Link to="#portfolio" smooth>Portfolio</Link></button>
+        <button type="button"><Link to="#portfolio" smooth>Projects</Link></button>
             <button type="button" ><Link to="#footer" style={{textDecoration:"none"}} smooth>contact me</Link></button>
         </div>
         </div>

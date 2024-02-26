@@ -25,7 +25,7 @@ function NavBar() {
           {/* </IconButton> */}
           <li><Link to="#main" smooth>Home</Link></li>
           <li><Link to="#about" smooth>About</Link></li>
-          <li><Link to="#portfolio" smooth>Portfolio</Link></li>
+          <li><Link to="#portfolio" smooth>Projects</Link></li>
           <li><Link to="#footer" smooth>Contact</Link></li>
           {/* Add other navigation items as needed */}
         </ul>
