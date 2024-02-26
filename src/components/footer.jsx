@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './style/footer.scss';
 import emailjs from 'emailjs-com';
-import CV from './assests/Name Muhammad Wayl CV (1).pdf' 
+import CV from './assests/wayl cv.pdf' 
 
 const Footer =()=>{
 
